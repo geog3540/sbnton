@@ -146,15 +146,15 @@
 
   // enter below all variables that should be recalculated. The order of attributes should match with
 	// the list of multiply and divide by values
-  var attributesToBeNormalized = [att2, att4];
+  var attributesToBeNormalized = [att2, att3, att4];
 	// If you would like to multiple the variables
 	// with a constant value enter them in multiplyBy array. If there is no need for multiplication,
 	// simply enter 1 for each value in multiplyBy.
-	var multiplyBy = [10000, 100];
+	var multiplyBy = [100, 100, 100];
 	// Enter the attribute name that you want to normalize (divide by).
 	// If you want to only multiply an attribute but not divide by another attribute
 	// then simply put null as the attribute name in the same order of the attribute.
-	var divideBy = ['Population', 'Population'];
+	var divideBy = ['FoodAccessResearchAtlasData2019_p_OHU2010', 'FoodAccessResearchAtlasData2019_p_Pop2010', 'FoodAccessResearchAtlasData2019_p_Pop2010'];
 	// if your variables are not raw counts and they are already normalized, comment out above, and
 	//uncomment below:
 	// var attributesToBeNormalized = [];
